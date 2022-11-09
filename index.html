@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>福州大学一卡通</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/vue.js"></script>
+
+</head>
+<body>
+    <div id="root">
+        <div id="meg">
+        <div class="name">姓名:<input type="text" placeholder="请输入姓名" id="name"></div>
+        <div class="xueyuan">部门：<select id="xueyuan">
+            <option value="材料科学与工程学院">材料科学与工程学院</option>
+            <option value="选择2">化学学院</option>
+            <option value="选择3">物理与信息工程学院</option>
+            <option value="选择">微电子学院</option>
+            <option value="选择5">环境与安全工程学院</option>
+            <option value="选择4">电气工程与自动化学院</option>
+            <option value="选择4">建筑与城乡规划学院</option>
+            <option value="选择4">机械工程与自动化学院</option>
+            <option value="选择4">生物科学与工程学院</option>
+            <option value="选择4">计算机与大数据学院</option>
+            <option value="选择4">数学与统计学院</option>
+            <option value="选择4">经济与管理学院</option>
+            <option value="选择4">紫金地质与矿业学院</option>
+            <option value="选择4">梅努斯国际工程学院</option>
+            <option value="选择4">土木工程学院</option>
+            <option value="选择4">石油化工学院</option>
+            <option value="选择4">人文社会科学学院</option>
+            <option value="选择4">外国语学院</option>
+            <option value="选择4">法学院</option>
+            <option value="选择4">数字中国研究院</option>
+            <option value="选择4">马克思主义学院</option>
+            <option value="选择4">先进制造学院</option>
+            <option value="选择4">海洋学院
+
+    </select></div>
+        </div>
+        <div id="fzu"><img src="./FZU.png"></img></div>
+    </div>
+    <div id="tu"><img src="./2.png" alt=""></div>
+</body>
+   <style>
+    body{
+       background-color:#0a84bd;
+        font-family: '微软雅黑', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        color:white;
+    }
+    #root{
+        width: 343px;
+        height: 100px;
+        /*padding:0 28px;*/
+        margin: auto;
+        display: flex;
+    }
+    #meg{
+        width:243px;
+    }
+    #meg div{
+        float: left;
+        height: 20px;
+    }
+    .name{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #name{
+        margin-left:12px;
+        background-color: #0a84bd;
+        outline: none;
+        border: none;
+        font-family: '微软雅黑', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        color:white;
+        width:100px;
+    }
+    #xueyuan{
+        background-color: #0a84bd;
+        outline: none;
+        border: none;
+        font-family: '微软雅黑', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        color:white;
+        appearance:none;
+        width:180px;
+    }
+    #fzu{
+        float:right;
+        width: 95px;
+        height: 95px;
+    }
+    #fzu img{
+        width: 100%;
+        height: 100%;
+    }
+    #tu{
+        width:344px;
+        heiht:321px;
+        margin: auto;
+    }
+    #tu img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</html>
